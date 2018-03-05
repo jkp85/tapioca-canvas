@@ -13,7 +13,7 @@ class CanvasClientAdapter(JSONAdapterMixin, TapiocaAdapter):
     resource_mapping = RESOURCE_MAPPING
 
     def get_api_root(self, api_params):
-        return api_params.get('api_root', 'https://localhost')
+        return api_params.get('api_root', 'http://localhost')
 
     def get_request_kwargs(self, api_params, *args, **kwargs):
         params = super(CanvasClientAdapter, self).get_request_kwargs(

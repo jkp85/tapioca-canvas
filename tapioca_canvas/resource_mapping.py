@@ -1,5 +1,3 @@
-# coding: utf-8
-
 RESOURCE_MAPPING = {
     "account_domain_lookups_search": {
         "resource": "/api/v1/accounts/search",
